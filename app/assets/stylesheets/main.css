@@ -39,11 +39,10 @@ header {
 }
 
 #logo{
-	position: fixed;
+	position: absolute;
 	text-align: left;
 	left: 5%;
 	z-index: 1;
-	background-color: #fff;
 }
 
 h1{
@@ -132,7 +131,7 @@ body {
 
 /* header*/
 header {
-	background: #fff;
+	background-color: #fff;
 	border-color: #192a68;
 }
 
