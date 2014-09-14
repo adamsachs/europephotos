@@ -55,7 +55,7 @@ $(document).ready(function(){
 		    //event listener for when user clicks on the marker just built--fills the info window with content
 		    //corresponding to that city
 			google.maps.event.addListener(marker, 'click', function() {
-				infowindow.setContent("<a href=\"" + this.gallery + "\"> <img src=\""+ this.image + "\" alt=" " </a>");
+				infowindow.setContent("<a href=\"" + this.gallery + "\"> <img src=\""+ this.image + "\" alt=\" \" </a>");
 				console.log(infowindow.content);	//for testing
 				infowindow.open (map, this);
 
