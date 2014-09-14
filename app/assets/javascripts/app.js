@@ -11,7 +11,7 @@ $(document).ready(function(){
 	//2d array holds the cities of photos (where markers are on map) + their info (cover photo + root of their gallery)
 	//6th element of each city's array holds the root of its photo gallery
 	var cities = [
-		['Sevilla', 37.3876812,-5.9787046, 1, "\"imgSevilla/DSC_0826.jpg\"", "morocco_gallery"],
+		['Sevilla', 37.3876812,-5.9787046, 1, "https://s3.amazonaws.com/europe.photos/SEVILLA/SEVILLA2.JPG", "morocco_gallery"],
 		['Paris', 48.8588589,2.3470599, 2, "\"imgParis/DSC_0076.JPG\"", "paris_gallery"],
 		['Rome', 41.9100711,12.5359979, 3, "\"imgRome/DSC_0822.jpg\"", "rome_gallery"]
 	]
@@ -55,7 +55,7 @@ $(document).ready(function(){
 		    //event listener for when user clicks on the marker just built--fills the info window with content
 		    //corresponding to that city
 			google.maps.event.addListener(marker, 'click', function() {
-				infowindow.setContent("<a href=\"" + this.gallery + "\"> HI</a>");
+				infowindow.setContent("<a href=\"" + this.gallery + "\"><img src=\""+ this.image + "\" alt="" </a>");
 				console.log(infowindow.content);	//for testing
 				infowindow.open (map, this);
 
