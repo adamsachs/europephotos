@@ -140,6 +140,10 @@ body { height: 100%; margin-top: auto; margin-bottom: auto; padding: 0; z-index:
 
 }
 
+#infowindowlink text {
+	margin-left: 30%;
+}
+
 
 
 /***************************
