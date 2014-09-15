@@ -128,7 +128,11 @@ body { height: 100%; margin-top: auto; margin-bottom: auto; padding: 0; z-index:
 #infowindowlink a{
 	margin-right: auto;
 	margin-left: auto;
+	margin-top: auto;
+	margin-bottom: auto;
 	text-align: center;
+	max-width: 100%;
+	max-height: 100%;
 
 }
 #infowindowlink img {
