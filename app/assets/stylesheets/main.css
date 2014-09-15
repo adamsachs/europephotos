@@ -120,14 +120,20 @@ body { height: 100%; margin-top: auto; margin-bottom: auto; padding: 0; z-index:
 
 #infowindowlink {
 	font-size: 200%;
-	text-align: center;
 	/*margin-left: 10%;
 	margin-top: 10%;
 	margin-bottom: 10%; */
 }
+
+#infowindowlink a{
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+
+}
 #infowindowlink img {
 	max-width: 100%;
-	max-height: 80%;
+	max-height: 100%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto
