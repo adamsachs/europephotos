@@ -119,6 +119,7 @@ body { height: 100%; margin-top: auto; margin-bottom: auto; padding: 0; z-index:
 #map img {max-width: none;}
 
 #infowindowlink {
+	text-align: center;
 	font-size: 200%;
 	margin-left:auto;
 	margin-right: auto;
@@ -126,6 +127,7 @@ body { height: 100%; margin-top: auto; margin-bottom: auto; padding: 0; z-index:
 	margin-top: 10%;
 	margin-bottom: 10%; */
 }
+
 
 
 #infowindowlink img {
