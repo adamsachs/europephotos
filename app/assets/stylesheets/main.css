@@ -120,6 +120,8 @@ body { height: 100%; margin-top: auto; margin-bottom: auto; padding: 0; z-index:
 
 #infowindowlink {
 	font-size: 200%;
+	margin-left:auto;
+	margin-right: auto;
 	/*margin-left: 10%;
 	margin-top: 10%;
 	margin-bottom: 10%; */
