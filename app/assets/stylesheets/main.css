@@ -136,11 +136,11 @@ body { height: 100%; margin-top: auto; margin-bottom: auto; padding: 0; z-index:
 
 }
 #infowindowlink img {
-	max-width: 100%;
-	max-height: 100%;
+	/*max-width: 100%;
+	max-height: 100%; */
 	display: block;
-	margin-left: auto;
-	margin-right: auto
+	/*margin-left: auto;
+	margin-right: auto */
 
 }
 
