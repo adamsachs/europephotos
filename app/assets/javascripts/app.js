@@ -12,8 +12,8 @@ $(document).ready(function(){
 	//6th element of each city's array holds the root of its photo gallery
 	var cities = [
 		['Sevilla', 37.3876812,-5.9787046, 1, "https://s3.amazonaws.com/europe.photos/SEVILLA/SEVILLA2.JPG", "morocco_gallery"],
-		['Paris', 48.8588589,2.3470599, 2, "\"imgParis/DSC_0076.JPG\"", "paris_gallery"],
-		['Rome', 41.9100711,12.5359979, 3, "\"imgRome/DSC_0822.jpg\"", "rome_gallery"]
+		['Paris', 48.8588589,2.3470599, 2, "https://s3.amazonaws.com/europe.photos/PARIS(RESIZED)/PARIS12.JPG", "paris_gallery"],
+		['Rome', 41.9100711,12.5359979, 3, "https://s3.amazonaws.com/europe.photos/ROME/ROME8.JPG", "rome_gallery"]
 	]
 
 	//initializes the info window (specific info will be placed later, once a certain marker is clicked)
@@ -55,7 +55,7 @@ $(document).ready(function(){
 		    //event listener for when user clicks on the marker just built--fills the info window with content
 		    //corresponding to that city
 			google.maps.event.addListener(marker, 'click', function() {
-				infowindow.setContent("<b>" + this.title+ "<b> <a href=\"" + this.gallery + "\"> <img src=\""+ this.image + "\" alt=\" \" </a>");
+				infowindow.setContent("<a href=\"" + this.gallery + "\"> <img src=\""+ this.image + "\" alt=\" \" >" + this.title + "</a>");
 				console.log(infowindow.content);	//for testing
 				infowindow.open (map, this);
 

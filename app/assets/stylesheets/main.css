@@ -188,6 +188,8 @@ nav a.selected, nav a:hover{
 	padding-bottom: 10%;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
 	display: block;
 }
 
