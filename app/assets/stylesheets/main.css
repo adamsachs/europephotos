@@ -120,7 +120,7 @@ body { height: 100%; margin-top: auto; margin-bottom: auto; padding: 0; z-index:
 
 #infowindowlink {
 	text-align: center;
-	font-size: 175%;
+	font-size: 155%;
 	margin-left:auto;
 	margin-right: auto;
 	/*margin-left: 10%;
@@ -217,6 +217,6 @@ nav a.selected, nav a:hover{
 	margin-top: auto;
 	margin-bottom: auto;
 	display: block;
-	opacity: 1;
+	opacity: 1.0;
 }
 
