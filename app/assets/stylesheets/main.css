@@ -217,5 +217,6 @@ nav a.selected, nav a:hover{
 	margin-top: auto;
 	margin-bottom: auto;
 	display: block;
+	opacity: 1;
 }
 
