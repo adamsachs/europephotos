@@ -87,8 +87,7 @@ $(document).ready(function(){
 	//functions sets up markers + info windows + galleries on the cities held in cities array
 	function setMarkers(map, locations){
 		var markerImage = {
-			url: 'http://www.large-icons.com/stock-icons/large-black/flag-icon.gif',
-			size: new google.maps.Size(15, 15)
+			url: 'http://icons.iconarchive.com/icons/icons-land/gis-gps-map/16/Flag1LeftBlack-2-icon.png',
 		}
 
 		for (var i = 0; i < locations.length; i++) {	//goes through all the cities
