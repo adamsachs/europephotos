@@ -86,7 +86,7 @@ $(document).ready(function(){
 
 	//functions sets up markers + info windows + galleries on the cities held in cities array
 	function setMarkers(map, locations){
-		var iconImage =  'http://www.blackholemaker.com/file/pic/photo/2014/08/4851d1533db0827f1b4f80615b50c288_1024.gif'
+		var iconImage =  'http://www.blackholemaker.com/file/pic/photo/2014/08/4851d1533db0827f1b4f80615b50c288_1024.gif';
 		for (var i = 0; i < locations.length; i++) {	//goes through all the cities
 		    var city = locations[i];	//current city array held in 'city' variable
 		    var myLatLng = new google.maps.LatLng(city[1], city[2]);
