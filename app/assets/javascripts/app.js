@@ -29,24 +29,30 @@ $(document).ready(function(){
 		var styles =
 		[
 		  {
+		    "featureType": "landscape",
 		    "stylers": [
-		      { "lightness": -1 },
-		      { "hue": "#00bbff" },
-		      { "saturation": -73 }
+		      { "lightness": -51 },
+		      { "saturation": -53 },
+		      { "hue": "#005eff" }
 		    ]
 		  },{
-		    "featureType": "road",
+		    "featureType": "administrative",
+		    "elementType": "geometry",
 		    "stylers": [
-		      { "lightness": -18 },
-		      { "saturation": 34 },
-		      { "hue": "#ffa200" }
+		      { "lightness": -35 }
+		    ]
+		  },{
+		    "featureType": "poi",
+		    "stylers": [
+		      { "hue": "#ffbb00" },
+		      { "visibility": "off" }
 		    ]
 		  },{
 		    "featureType": "water",
 		    "stylers": [
-		      { "hue": "#3c00ff" },
-		      { "lightness": -18 },
-		      { "saturation": -65 }
+		      { "saturation": -60 },
+		      { "lightness": -1 },
+		      { "hue": "#00ff88" }
 		    ]
 		  }
 		]
