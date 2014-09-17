@@ -86,11 +86,18 @@ $(document).ready(function(){
 
 	//functions sets up markers + info windows + galleries on the cities held in cities array
 	function setMarkers(map, locations){
+		var markerImage = {
+			url: 'http://www.large-icons.com/stock-icons/large-black/flag-icon.gif',
+			size: new google.maps.Size(15, 15)
+		}
+
 		for (var i = 0; i < locations.length; i++) {	//goes through all the cities
 		    var city = locations[i];	//current city array held in 'city' variable
 		    var myLatLng = new google.maps.LatLng(city[1], city[2]);
 		    var marker = new google.maps.Marker({	//establishes marker w/ info provided by array
 		        position: myLatLng,
+		        animation: google.maps.Animation.DROP,
+		        icon: markerImage,
 		        image: city[4],
 		        gallery: city[5],
 		        map: map,
