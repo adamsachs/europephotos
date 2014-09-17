@@ -54,7 +54,14 @@ $(document).ready(function(){
 		      { "lightness": -1 },
 		      { "hue": "#00ff88" }
 		    ]
-		  }
+		  },
+		  {
+		    "featureType": "road.arterial",
+		    "stylers": [
+		      { "visibility": "off" }
+		    ]
+		  },{
+  			}
 		]
 
 		var styledMap = new google.maps.StyledMapType(styles,
