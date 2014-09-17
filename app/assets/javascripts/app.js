@@ -56,7 +56,7 @@ $(document).ready(function(){
 
 		var mapOptions = {	//sets up initial map view
 				center: new google.maps.LatLng(40.75, 11.3),
-				zoom: 4
+				zoom: 4,
 				mapTypeControlOptions: {
       				mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
     			}
