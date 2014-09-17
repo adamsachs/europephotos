@@ -87,7 +87,7 @@ $(document).ready(function(){
 	//functions sets up markers + info windows + galleries on the cities held in cities array
 	function setMarkers(map, locations){
 		var markerImage = {
-			url: 'http://icons.iconarchive.com/icons/icons-land/gis-gps-map/16/Flag1LeftBlack-2-icon.png',
+			url: 'http://media1.oakpark.com/Images/2/17/19/2/1/2_17_19_2_1_40x40-333333.png',
 		}
 
 		for (var i = 0; i < locations.length; i++) {	//goes through all the cities
