@@ -87,7 +87,7 @@ $(document).ready(function(){
 	//functions sets up markers + info windows + galleries on the cities held in cities array
 	function setMarkers(map, locations){
 		var markerImage = {
-			url: 'http://png-1.findicons.com/files/icons/2232/wireframe_mono/16/pin_map.png',
+			url: 'http://www.upitup.com/pix/financing/uploads/pin_green_small.png',
 		}
 
 		for (var i = 0; i < locations.length; i++) {	//goes through all the cities
