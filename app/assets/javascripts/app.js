@@ -25,13 +25,48 @@ $(document).ready(function(){
 
 	//function that initializes map + calls setMarkers to place markers
 	function initialize() {
+
+		var styles =
+		[
+		  {
+		    "stylers": [
+		      { "lightness": -1 },
+		      { "hue": "#00bbff" },
+		      { "saturation": -73 }
+		    ]
+		  },{
+		    "featureType": "road",
+		    "stylers": [
+		      { "lightness": -18 },
+		      { "saturation": 34 },
+		      { "hue": "#ffa200" }
+		    ]
+		  },{
+		    "featureType": "water",
+		    "stylers": [
+		      { "hue": "#3c00ff" },
+		      { "lightness": -18 },
+		      { "saturation": -65 }
+		    ]
+		  }
+		]
+
+		var styledMap = new google.maps.StyledMapType(styles,
+    		{name: "Styled Map"});
+
 		var mapOptions = {	//sets up initial map view
 				center: new google.maps.LatLng(40.75, 11.3),
 				zoom: 4
+				mapTypeControlOptions: {
+      				mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
+    			}
 		};
 
-			var map = new google.maps.Map(document.getElementById("map"),
+		var map = new google.maps.Map(document.getElementById("map"),
 			mapOptions);	//establishes map in 'map' div
+
+		map.mapTypes.set('map_style', styledMap);
+  		map.setMapTypeId('map_style');
 
 		setMarkers(map, cities);	//function that creates markers + info windows
 
