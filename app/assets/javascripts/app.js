@@ -58,7 +58,7 @@ $(document).ready(function(){
 				center: new google.maps.LatLng(40.75, 11.3),
 				zoom: 4,
 				panControl: false,
-				zoom control: false,
+				zoomControl: false,
 				mapTypeControl: false,
 				streetViewControl: false,
 				overviewMapControl: false,
