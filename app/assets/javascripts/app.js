@@ -87,7 +87,7 @@ $(document).ready(function(){
 	//functions sets up markers + info windows + galleries on the cities held in cities array
 	function setMarkers(map, locations){
 		var markerImage = {
-			url: 'http://media1.oakpark.com/Images/2/17/19/2/1/2_17_19_2_1_40x40-333333.png',
+			url: 'http://blog.softwaremedia.com/wp-content/uploads/2013/01/black-dot.gif',
 		}
 
 		for (var i = 0; i < locations.length; i++) {	//goes through all the cities
