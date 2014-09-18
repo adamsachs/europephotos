@@ -107,7 +107,7 @@ $(document).ready(function(){
 	//functions sets up markers + info windows + galleries on the cities held in cities array
 	function setMarkers(map, locations){
 		var markerImage = {
-			url: 'http://www.easypaveinc.com/wp-content/plugins/mappress-google-maps-for-wordpress/icons/greenflag.png',
+			url: 'app/assets/images/greenflag.png',
 		}
 
 		for (var i = 0; i < locations.length; i++) {	//goes through all the cities
