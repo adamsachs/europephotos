@@ -107,7 +107,7 @@ $(document).ready(function(){
 	//functions sets up markers + info windows + galleries on the cities held in cities array
 	function setMarkers(map, locations){
 		var markerImage = {
-			url: 'http://icdn.pro/images/en/o/r/orange-flag-icone-6701-32.png',
+			url: 'https://cdn1.iconfinder.com/data/icons/fatcow/32x32/bullet_orange.png',
 		}
 
 		for (var i = 0; i < locations.length; i++) {	//goes through all the cities
