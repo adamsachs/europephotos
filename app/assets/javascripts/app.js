@@ -108,6 +108,7 @@ $(document).ready(function(){
 	function setMarkers(map, locations){
 		var markerImage = {
 			url: 'http://www.easypaveinc.com/wp-content/plugins/mappress-google-maps-for-wordpress/icons/greenflag.png',
+			size: new google.maps.Size(40, 40)
 		}
 
 		for (var i = 0; i < locations.length; i++) {	//goes through all the cities
