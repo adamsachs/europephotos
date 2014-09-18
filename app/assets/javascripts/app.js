@@ -107,7 +107,7 @@ $(document).ready(function(){
 	//functions sets up markers + info windows + galleries on the cities held in cities array
 	function setMarkers(map, locations){
 		var markerImage = {
-			url: 'https://cdn1.iconfinder.com/data/icons/fatcow/32x32/bullet_orange.png',
+			url: 'public/orangeflag.png',
 			anchor: new google.maps.Point(16, 16)
 		}
 
