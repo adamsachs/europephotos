@@ -108,6 +108,7 @@ $(document).ready(function(){
 	function setMarkers(map, locations){
 		var markerImage = {
 			url: 'https://cdn1.iconfinder.com/data/icons/fatcow/32x32/bullet_orange.png',
+			anchor: new google.maps.Point(16, 16)
 		}
 
 		for (var i = 0; i < locations.length; i++) {	//goes through all the cities
