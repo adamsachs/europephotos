@@ -107,7 +107,7 @@ $(document).ready(function(){
 	//functions sets up markers + info windows + galleries on the cities held in cities array
 	function setMarkers(map, locations){
 		var markerImage = {
-			url: 'images/orangeflag.png',
+			url: 'https://s3.amazonaws.com/europe.photos/RESOURCES/orangeflag.png',
 			anchor: new google.maps.Point(16, 16)
 		}
 
