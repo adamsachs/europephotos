@@ -66,7 +66,7 @@ $(document).ready(function(){
 		    "elementType": "geometry",
 		    "stylers": [
 		      { "lightness": -3 },
-		      { "saturation": -80 }
+		      { "saturation": -70 }
 		    ]
 		  },{
 		    "featureType": "road",
