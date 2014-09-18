@@ -108,7 +108,6 @@ $(document).ready(function(){
 	function setMarkers(map, locations){
 		var markerImage = {
 			url: 'https://s3.amazonaws.com/europe.photos/RESOURCES/orangeflag.png',
-			anchor: new google.maps.Point(16, 16)
 		}
 
 		for (var i = 0; i < locations.length; i++) {	//goes through all the cities
