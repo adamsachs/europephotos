@@ -60,8 +60,21 @@ $(document).ready(function(){
 		    "stylers": [
 		      { "visibility": "off" }
 		    ]
+		  },
+		  {
+		    "featureType": "road",
+		    "elementType": "geometry",
+		    "stylers": [
+		      { "lightness": -3 },
+		      { "saturation": -44 }
+		    ]
 		  },{
-  			}
+		    "featureType": "road",
+		    "elementType": "labels",
+		    "stylers": [
+		      { "saturation": -52 }
+		    ]
+		  }
 		]
 
 		var styledMap = new google.maps.StyledMapType(styles,
