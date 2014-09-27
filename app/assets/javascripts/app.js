@@ -16,7 +16,7 @@ $(document).ready(function(){
 		['Arcos', 36.7515369,-5.8080383, 6, "https://s3.amazonaws.com/europe.photos/ARCOS/ARCOS4.JPG", "arcos_gallery"],
 		['Axpe', 43.1159537,-2.5985256, 7, "https://s3.amazonaws.com/europe.photos/AXPE/AXPE4.JPG", "axpe_gallery"],
 		['Barcelona', 41.39479,2.1487679, 8, "https://s3.amazonaws.com/europe.photos/BARCELONA/BARCELONA3.JPG", "barcelona_gallery"],
-		['Berlin', 52.5075419,13.4261419, 20, "https://s3.amazonaws.com/europe.photos/BERLIN/BERLIN7.JPG", "berlin_gallery"]
+		['Berlin', 52.5075419,13.4261419, 20, "https://s3.amazonaws.com/europe.photos/BERLIN/BERLIN7.JPG", "berlin_gallery"],
 		['Carmona', 37.4711885,-5.6475426, 9, "https://s3.amazonaws.com/europe.photos/CARMONA/CARMONA10.JPG", "carmona_gallery"],
 		['Cordoba', 37.891586,-4.784485, 10, "https://s3.amazonaws.com/europe.photos/CORDOBA/CORDOBA8.JPG", "cordoba_gallery"],
 		['Gijon', 43.5314284,-5.6684545, 11, "https://s3.amazonaws.com/europe.photos/GIJON/GIJON5.jpg", "gijon_gallery"],
