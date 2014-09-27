@@ -31,7 +31,7 @@ $(document).ready(function(){
 		['Ronda', 36.7406348,-5.1581592, 18, "https://s3.amazonaws.com/europe.photos/RONDA/RONDA8.JPG", "ronda_gallery"], 
 		['Rome', 41.8769022,12.4812781, 3, "https://s3.amazonaws.com/europe.photos/ROME/ROME8.JPG", "rome_gallery"],
 		['San Sebastian', 43.3072927,-1.973883, 19, "https://s3.amazonaws.com/europe.photos/SANSEBASTIAN/SANSEBASTIAN4.JPG", "sansebastian_gallery"],
-		['Sevilla & Carmona', 37.3876812,-5.9787046, 1, "https://s3.amazonaws.com/europe.photos/SEVILLA/SEVILLA2.JPG", "sevilla_gallery"],
+		['Sevilla, Carmona, Jerez & Arcos', 37.3876812,-5.9787046, 1, "https://s3.amazonaws.com/europe.photos/SEVILLA/SEVILLA2.JPG", "sevilla_gallery"],
 
 
 	]
