@@ -13,16 +13,16 @@ $(document).ready(function(){
 	var cities = [
 		
 		['Amsterdam', 52.3747158,4.8986166, 5, "https://s3.amazonaws.com/europe.photos/AMSTERDAM/AMSTERDAM6.JPG", "amsterdam_gallery"],
-		['Arcos', 36.7515369,-5.8080383, 6, "https://s3.amazonaws.com/europe.photos/ARCOS/ARCOS4.JPG", "arcos_gallery"],
+		//['Arcos', 36.7515369,-5.8080383, 6, "https://s3.amazonaws.com/europe.photos/ARCOS/ARCOS4.JPG", "arcos_gallery"],
 		['Axpe', 43.1159537,-2.5985256, 7, "https://s3.amazonaws.com/europe.photos/AXPE/AXPE4.JPG", "axpe_gallery"],
 		['Barcelona', 41.39479,2.1487679, 8, "https://s3.amazonaws.com/europe.photos/BARCELONA/BARCELONA3.JPG", "barcelona_gallery"],
 		['Berlin', 52.5075419,13.4261419, 20, "https://s3.amazonaws.com/europe.photos/BERLIN/BERLIN7.JPG", "berlin_gallery"],
-		['Carmona', 37.4711885,-5.6475426, 9, "https://s3.amazonaws.com/europe.photos/CARMONA/CARMONA10.JPG", "carmona_gallery"],
+		//['Carmona', 37.4711885,-5.6475426, 9, "https://s3.amazonaws.com/europe.photos/CARMONA/CARMONA10.JPG", "carmona_gallery"],
 		['Cordoba', 37.891586,-4.784485, 10, "https://s3.amazonaws.com/europe.photos/CORDOBA/CORDOBA8.JPG", "cordoba_gallery"],
 		['Gijon', 43.5314284,-5.6684545, 11, "https://s3.amazonaws.com/europe.photos/GIJON/GIJON5.jpg", "gijon_gallery"],
 		['Granada', 37.1809462,-3.5922032, 12, "https://s3.amazonaws.com/europe.photos/GRANADA/GRANADA6.JPG", "granada_gallery"],
 		['Istanbul', 41.0053215,29.0121795, 13, "https://s3.amazonaws.com/europe.photos/ISTANBUL/ISTANBUL10.JPG", "istanbul_gallery"],
-		['Jerez', 36.6876057,-6.1229853, 14, "https://s3.amazonaws.com/europe.photos/JEREZ/JEREZ4.JPG", "jerez_gallery"],
+		['Jerez & Arcos', 36.6876057,-6.1229853, 14, "https://s3.amazonaws.com/europe.photos/JEREZ/JEREZ4.JPG", "jerez_gallery"],
 		['Lisbon', 38.7436266,-9.1602037, 15, "https://s3.amazonaws.com/europe.photos/LISBON/LISBON6.JPG", "lisbon_gallery"],
 		['Madrid', 40.4378271,-3.6795367, 16, "https://s3.amazonaws.com/europe.photos/MADRID/MADRID5.JPG", "madrid_gallery"],
 		['Mallorca', 39.6134979,2.911652, 17, "https://s3.amazonaws.com/europe.photos/MALLORCA/MALLORCA8.JPG", "mallorca_gallery"],
@@ -31,7 +31,7 @@ $(document).ready(function(){
 		['Ronda', 36.7406348,-5.1581592, 18, "https://s3.amazonaws.com/europe.photos/RONDA/RONDA8.JPG", "ronda_gallery"], 
 		['Rome', 41.8769022,12.4812781, 3, "https://s3.amazonaws.com/europe.photos/ROME/ROME8.JPG", "rome_gallery"],
 		['San Sebastian', 43.3072927,-1.973883, 19, "https://s3.amazonaws.com/europe.photos/SANSEBASTIAN/SANSEBASTIAN4.JPG", "sansebastian_gallery"],
-		['Sevilla', 37.3876812,-5.9787046, 1, "https://s3.amazonaws.com/europe.photos/SEVILLA/SEVILLA2.JPG", "sevilla_gallery"],
+		['Sevilla & Carmona', 37.3876812,-5.9787046, 1, "https://s3.amazonaws.com/europe.photos/SEVILLA/SEVILLA2.JPG", "sevilla_gallery"],
 
 
 	]
