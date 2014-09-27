@@ -22,7 +22,7 @@ $(document).ready(function(){
 		['Gijon', 43.5314284,-5.6684545, 11, "https://s3.amazonaws.com/europe.photos/GIJON/GIJON5.jpg", "gijon_gallery"],
 		['Granada', 37.1809462,-3.5922032, 12, "https://s3.amazonaws.com/europe.photos/GRANADA/GRANADA6.JPG", "granada_gallery"],
 		['Istanbul', 41.0053215,29.0121795, 13, "https://s3.amazonaws.com/europe.photos/ISTANBUL/ISTANBUL10.JPG", "istanbul_gallery"],
-		['Jerez & Arcos', 36.6876057,-6.1229853, 14, "https://s3.amazonaws.com/europe.photos/JEREZ/JEREZ4.JPG", "jerez_gallery"],
+		//['Jerez & Arcos', 36.6876057,-6.1229853, 14, "https://s3.amazonaws.com/europe.photos/JEREZ/JEREZ4.JPG", "jerez_gallery"],
 		['Lisbon', 38.7436266,-9.1602037, 15, "https://s3.amazonaws.com/europe.photos/LISBON/LISBON6.JPG", "lisbon_gallery"],
 		['Madrid', 40.4378271,-3.6795367, 16, "https://s3.amazonaws.com/europe.photos/MADRID/MADRID5.JPG", "madrid_gallery"],
 		['Mallorca', 39.6134979,2.911652, 17, "https://s3.amazonaws.com/europe.photos/MALLORCA/MALLORCA8.JPG", "mallorca_gallery"],
