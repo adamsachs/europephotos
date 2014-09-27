@@ -11,9 +11,10 @@ $(document).ready(function(){
 	//2d array holds the cities of photos (where markers are on map) + their info (cover photo + root of their gallery)
 	//6th element of each city's array holds the root of its photo gallery
 	var cities = [
-		['Sevilla', 37.3876812,-5.9787046, 1, "https://s3.amazonaws.com/europe.photos/SEVILLA/SEVILLA2.JPG", "morocco_gallery"],
+		['Sevilla', 37.3876812,-5.9787046, 1, "https://s3.amazonaws.com/europe.photos/SEVILLA/SEVILLA2.JPG", "sevilla_gallery"],
 		['Paris', 48.8588589,2.3470599, 2, "https://s3.amazonaws.com/europe.photos/PARIS(RESIZED)/PARIS12.JPG", "paris_gallery"],
-		['Rome', 41.9100711,12.5359979, 3, "https://s3.amazonaws.com/europe.photos/ROME/ROME8.JPG", "rome_gallery"]
+		['Rome', 41.8769022,12.4812781, 3, "https://s3.amazonaws.com/europe.photos/ROME/ROME8.JPG", "rome_gallery"]
+		['Marrakesh', 31.6342561,-8.0072952, 4, "https://s3.amazonaws.com/europe.photos/MOROCCO/MOROCCO9.JPG", "morocco_gallery"]
 	]
 
 	//initializes the info window (specific info will be placed later, once a certain marker is clicked)
