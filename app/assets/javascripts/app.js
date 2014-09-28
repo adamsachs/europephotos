@@ -18,7 +18,7 @@ $(document).ready(function(){
 		['Barcelona', 41.39479,2.1487679, 8, "https://s3.amazonaws.com/europe.photos/BARCELONA/BARCELONA3.JPG", "barcelona_gallery"],
 		['Berlin', 52.5075419,13.4261419, 20, "https://s3.amazonaws.com/europe.photos/BERLIN/BERLIN7.JPG", "berlin_gallery"],
 		//['Carmona', 37.4711885,-5.6475426, 9, "https://s3.amazonaws.com/europe.photos/CARMONA/CARMONA10.JPG", "carmona_gallery"],
-		['Cordoba', 37.891586,-4.784485, 10, "https://s3.amazonaws.com/europe.photos/CORDOBA/CORDOBA8.JPG", "cordoba_gallery"],
+		['Córdoba', 37.891586,-4.784485, 10, "https://s3.amazonaws.com/europe.photos/CORDOBA/CORDOBA8.JPG", "cordoba_gallery"],
 		['Gijon', 43.5314284,-5.6684545, 11, "https://s3.amazonaws.com/europe.photos/GIJON/GIJON5.JPG", "gijon_gallery"],
 		['Granada', 37.1809462,-3.5922032, 12, "https://s3.amazonaws.com/europe.photos/GRANADA/GRANADA6.JPG", "granada_gallery"],
 		['Istanbul', 41.0053215,29.0121795, 13, "https://s3.amazonaws.com/europe.photos/ISTANBUL/ISTANBUL10.JPG", "istanbul_gallery"],
@@ -30,8 +30,8 @@ $(document).ready(function(){
 		['Paris', 48.8588589,2.3470599, 2, "https://s3.amazonaws.com/europe.photos/PARIS/PARIS12.JPG", "paris_gallery"],
 		['Ronda', 36.7406348,-5.1581592, 18, "https://s3.amazonaws.com/europe.photos/RONDA/RONDA8.JPG", "ronda_gallery"], 
 		['Rome', 41.8769022,12.4812781, 3, "https://s3.amazonaws.com/europe.photos/ROME/ROME8.JPG", "rome_gallery"],
-		['San Sebastian', 43.3072927,-1.973883, 19, "https://s3.amazonaws.com/europe.photos/SANSEBASTIAN/SANSEBASTIAN4.JPG", "sansebastian_gallery"],
-		['Sevilla, Carmona, Jerez & Arcos', 37.3876812,-5.9787046, 1, "https://s3.amazonaws.com/europe.photos/SEVILLA/SEVILLA2.JPG", "sevilla_gallery"],
+		['San Sebastián', 43.3072927,-1.973883, 19, "https://s3.amazonaws.com/europe.photos/SANSEBASTIAN/SANSEBASTIAN4.JPG", "sansebastian_gallery"],
+		['Sevilla & more', 37.3876812,-5.9787046, 1, "https://s3.amazonaws.com/europe.photos/SEVILLA/SEVILLA2.JPG", "sevilla_gallery"],
 
 
 	]
@@ -170,8 +170,6 @@ $(document).ready(function(){
 							console.log(infowindow.content);
 							$overlay.append(response);
 							$overlay.show();
-							$("#logo").empty();
-							$("#logo").append(this.title);
 							$overlay.animate({scrollTop:0},0); 
 
 
