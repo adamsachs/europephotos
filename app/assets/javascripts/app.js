@@ -168,10 +168,10 @@ $(document).ready(function(){
 				
 						$.get(url, function (response){
 							console.log(infowindow.content);
-							$("#logo").empty();
-							$("#logo").append(this.title);
 							$overlay.append(response);
 							$overlay.show();
+							$("#logo").empty();
+							$("#logo").append(this.title);
 							$overlay.animate({scrollTop:0},0); 
 
 
