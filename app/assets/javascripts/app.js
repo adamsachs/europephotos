@@ -19,7 +19,7 @@ $(document).ready(function(){
 		['Berlin', 52.5075419,13.4261419, 20, "https://s3.amazonaws.com/europe.photos/BERLIN/BERLIN7.JPG", "berlin_gallery"],
 		//['Carmona', 37.4711885,-5.6475426, 9, "https://s3.amazonaws.com/europe.photos/CARMONA/CARMONA10.JPG", "carmona_gallery"],
 		['Cordoba', 37.891586,-4.784485, 10, "https://s3.amazonaws.com/europe.photos/CORDOBA/CORDOBA8.JPG", "cordoba_gallery"],
-		['Gijon', 43.5314284,-5.6684545, 11, "https://s3.amazonaws.com/europe.photos/GIJON/GIJON5.jpg", "gijon_gallery"],
+		['Gijon', 43.5314284,-5.6684545, 11, "https://s3.amazonaws.com/europe.photos/GIJON/GIJON5.JPG", "gijon_gallery"],
 		['Granada', 37.1809462,-3.5922032, 12, "https://s3.amazonaws.com/europe.photos/GRANADA/GRANADA6.JPG", "granada_gallery"],
 		['Istanbul', 41.0053215,29.0121795, 13, "https://s3.amazonaws.com/europe.photos/ISTANBUL/ISTANBUL10.JPG", "istanbul_gallery"],
 		//['Jerez & Arcos', 36.6876057,-6.1229853, 14, "https://s3.amazonaws.com/europe.photos/JEREZ/JEREZ4.JPG", "jerez_gallery"],
@@ -169,7 +169,7 @@ $(document).ready(function(){
 						$.get(url, function (response){
 							console.log(infowindow.content);
 							$overlay.append(response);
-							$window.scrollTo(0, 0); 
+							$overlay.scrollTo(0, 0); 
 							$overlay.show();
 
 
