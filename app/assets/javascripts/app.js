@@ -169,6 +169,7 @@ $(document).ready(function(){
 						$.get(url, function (response){
 							console.log(infowindow.content);
 							$overlay.append(response);
+							window.scrollTo(0, 0); 
 							$overlay.show();
 
 
