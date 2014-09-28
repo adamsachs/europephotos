@@ -131,7 +131,7 @@ $(document).ready(function(){
 		}
 
 		var markerShape = {
-			coords: [20, 1, 20, 20, 30, 20, 30 , 1],
+			coords: [16, 1, 16, 20, 30, 20, 30 , 1],
 			type: 'poly'
 		};
 
