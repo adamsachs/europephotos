@@ -169,8 +169,8 @@ $(document).ready(function(){
 						$.get(url, function (response){
 							console.log(infowindow.content);
 							$overlay.append(response);
-							$overlay.animate({scrollTop:0},0); 
 							$overlay.show();
+							$overlay.animate({scrollTop:0},0); 
 
 
 							$overlay.click(function(event){		//closes + clears overlay when it is clicked
