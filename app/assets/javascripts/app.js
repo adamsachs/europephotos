@@ -130,6 +130,11 @@ $(document).ready(function(){
 			url: 'https://s3.amazonaws.com/europe.photos/orangeflag.png',
 		}
 
+		var markerShape = {
+			coords: [1, 1, 1, 20, 18, 20, 18 , 1],
+			type: 'poly'
+		};
+
 		for (var i = 0; i < locations.length; i++) {	//goes through all the cities
 		    var city = locations[i];	//current city array held in 'city' variable
 		    var myLatLng = new google.maps.LatLng(city[1], city[2]);
@@ -137,6 +142,7 @@ $(document).ready(function(){
 		        position: myLatLng,
 		        animation: google.maps.Animation.DROP,
 		        icon: markerImage,
+		        shape: markerShape,
 		        image: city[4],
 		        gallery: city[5],
 		        map: map,
