@@ -169,7 +169,7 @@ $(document).ready(function(){
 						$.get(url, function (response){
 							console.log(infowindow.content);
 							$overlay.append(response);
-							$overlay.scrollTo(0, 0); 
+							$overlay.scrollTop(0); 
 							$overlay.show();
 
 
