@@ -59,6 +59,10 @@ h2{
 	margin: 15px 0;
 	font-size: 1em;
 	font-weight: lighter;
+	position: absolute;
+	text-align: left;
+	left: 5%;
+	
 }
 
 h3{
