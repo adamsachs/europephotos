@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	var $overlay = $('<div id = "overlay"></div>');	//overlay will be used for galleries
+	var $overlay = $('<div id = "overlay"><span class="xbutton">x</span></div>');	//overlay will be used for galleries
 	$("#maingallery").append($overlay);		//appended to the 'maingallery' section i.e. body of index.html
 
 
@@ -191,33 +191,6 @@ $(document).ready(function(){
 									$overlay.hide();
 								}
 							});
-
-							/*
-
-							$(".thumbnail").click(function(event){
-							event.preventDefault();
-							var uri = "images/show?id=" + $(this).attr('id');
-							var encoded = encodeURI(uri);
-							console.log("holder2: " + $holder.html());
-							$.get(encoded, function (response){
-								$overlay.empty();
-								$overlay.append(response);
-								$overlay.show();
-								console.log($overlay.html());
-								$overlay.click(function(event){		//resets overlay to gallery, not fullsize image
-									event.preventDefault()
-									$overlay.empty();
-									$overlay.append($holder);
-										$overlay.click(function(){		//closes + clears overlay when it is clicked
-											$holder.empty();
-											$overlay.empty();
-											$overlay.hide();
-										});
-								});
-
-							}, "html");
-						});	*/
-
 
 						}, "html");
 					});
