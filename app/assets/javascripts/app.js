@@ -1,8 +1,8 @@
 $(document).ready(function(){
 
-	var $overlay = $('<div id = "overlay"><span class="xbutton">x</span></div>');	//overlay will be used for galleries
+	var $overlay = $('<div id = "overlay"></div>');	//overlay will be used for galleries
 	$("#maingallery").append($overlay);		//appended to the 'maingallery' section i.e. body of index.html
-
+	var $xButton = $('<span class="xbutton">x</span>');
 
 
 	
@@ -174,6 +174,7 @@ $(document).ready(function(){
 				
 						$.get(url, function (response){
 							console.log(infowindow.content);
+							$overlay.append($xButton);
 							$overlay.append(response);
 							$overlay.show();
 							$overlay.animate({scrollTop:0},0); 
