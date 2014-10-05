@@ -89,7 +89,7 @@ header {
 }
 
 #logo{
-	position: fixed;
+	position: absolute;
 	text-align: left;
 	left: 5%;
 	z-index: 0;
@@ -167,7 +167,7 @@ body { height: 100%; margin-top: auto; margin-bottom: auto; padding: 0; z-index:
 #map { position: relative; 
 	/*height: 80%; width: 80%; 
 	*/
-	height: 100%; width: 100%;
+	height: 90%; width: 90%;
 	display: block; 
 	margin:auto; margin-top: 10%; margin-bottom: 10%;
 	z-index: 0;
