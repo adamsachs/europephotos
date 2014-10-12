@@ -155,7 +155,6 @@ $(document).ready(function(){
 		    //corresponding to that city
 			google.maps.event.addListener(marker, 'click', function() {
 				infowindow.setContent("<a id=\"infowindowlink\" href=\"" + this.gallery + "\"> <img src=\""+ this.image + "\" alt=\" \" >" + this.title + "</a>");
-				console.log(infowindow.content);	//for testing
 				infowindow.open (map, this);
 
 
@@ -167,9 +166,6 @@ $(document).ready(function(){
 						event.preventDefault();
 						var url = "galleries/" + $(this).attr('href');
 
-						
-						//***IGNORE***server will respond to get with an array of image links
-						//and then will take the array and format it into html with knockout
 
 				
 						$.get(url, function (response){
