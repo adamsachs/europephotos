@@ -267,12 +267,13 @@ nav a.selected, nav a:hover{
 }
 
 
-/*li{
-	max-height: 100%;
+li{
+	max-height: 95%;
 	height: 100%;
 	width: 100%;
+	max-width: 95%;
 	padding-bottom: 10%; 
-} */
+}
 
 #overlay img {
 	max-width: 95%;
