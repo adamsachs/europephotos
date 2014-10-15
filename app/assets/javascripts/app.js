@@ -154,7 +154,6 @@ $(document).ready(function(){
 		    //event listener for when user clicks on the marker just built--fills the info window with content
 		    //corresponding to that city
 			google.maps.event.addListener(marker, 'click', function() {
-				console.log(navigator.userAgent.toLowerCase());
 				if(navigator.userAgent.toLowerCase().indexOf('firefox') > -1){
 					infowindow.setContent("<a id=\"infowindowlink\" href=\"" + this.gallery + "\">" + this.title + "</a>");
 
@@ -175,8 +174,6 @@ $(document).ready(function(){
 						var url = "galleries/" + $(this).attr('href');
 
 						
-						//***IGNORE***server will respond to get with an array of image links
-						//and then will take the array and format it into html with knockout
 
 				
 						$.get(url, function (response){
