@@ -39,8 +39,7 @@ $(document).ready(function(){
 	//initializes the info window (specific info will be placed later, once a certain marker is clicked)
 	var infowindow = new google.maps.InfoWindow({
 		content : '',
-		maxWidth: 200,
-		maxheight: 100
+		maxWidth: 200
 	});
 
 
