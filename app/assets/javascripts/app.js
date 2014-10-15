@@ -154,8 +154,14 @@ $(document).ready(function(){
 		    //event listener for when user clicks on the marker just built--fills the info window with content
 		    //corresponding to that city
 			google.maps.event.addListener(marker, 'click', function() {
+				if(navigator.userAgent.toLowerCase().indexOf('firefox') > -1){
+					infowindow.setContent("<a id=\"infowindowlink\" href=\"" + this.gallery + "\">" + this.title + "</a>");
+
+				}
+				else{
 				infowindow.setContent("<a id=\"infowindowlink\" href=\"" + this.gallery + "\"> <img src=\""+ this.image + "\" alt=\" \" >" + this.title + "</a>");
-				console.log(infowindow.content);	//for testing
+				}
+				
 				infowindow.open (map, this);
 
 
