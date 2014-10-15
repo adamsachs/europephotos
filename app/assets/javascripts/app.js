@@ -154,7 +154,7 @@ $(document).ready(function(){
 		    //event listener for when user clicks on the marker just built--fills the info window with content
 		    //corresponding to that city
 			google.maps.event.addListener(marker, 'click', function() {
-				if(($.browser.mozilla) > -1){
+				if(($.browser.mozilla)){
 					infowindow.setContent("<a id=\"infowindowlink\" href=\"" + this.gallery + "\">" + this.title + "</a>");
 
 				}
