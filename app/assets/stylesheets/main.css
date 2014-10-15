@@ -262,11 +262,13 @@ nav a.selected, nav a:hover{
 	list-style-type: none;
 	max-height: 100%;
 	position: absolute;
+	height: 100%;
 }
 
 
 li{
 	max-height: 100%;
+	height: 100%;
 }
 
 #overlay img {
