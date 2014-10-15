@@ -264,7 +264,6 @@ nav a.selected, nav a:hover{
 
 
 #gallery li{
-	position: absolute;
 	max-height: 100%;
 }
 #overlay img {
@@ -277,5 +276,6 @@ nav a.selected, nav a:hover{
 	margin-top: auto;
 	margin-bottom: auto;
 	display: block;
+	position: absolute;
 }
 
