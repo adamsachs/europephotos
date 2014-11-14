@@ -1,0 +1,1 @@
+The javascript for the page is held in the app.js file.
