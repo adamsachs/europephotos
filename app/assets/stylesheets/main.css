@@ -181,10 +181,6 @@ header {
 	border-color: #192a68;
 }
 
-/* nav background on mobile devices */
-nav {
-	background: #fff;
-}
 
 /* logo text */
 h1, h2{
@@ -202,9 +198,9 @@ a:hover{
 
 
 /*nav links */
-nav a, nav a:visited {
+/*nav a, nav a:visited {
 	color: #036;
-}
+} */
 
 /* selected nav link */
 nav a.selected, nav a:hover{
