@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 	var $overlay = $('<div id = "overlay"></div>');	//overlay will be used for galleries
 	$("#maingallery").append($overlay);		//appended to the 'maingallery' section i.e. body of index.html
-	var $xButton = $('<span class="xbutton">x</span>');
+	var $xButton = $('<span class="xbutton">x</span>'); //xbutton for top right corner of overlay
 
 
 	
@@ -46,6 +46,7 @@ $(document).ready(function(){
 	//function that initializes map + calls setMarkers to place markers
 	function initialize() {
 
+		//stylizes map
 		var styles =
 		[
 		  {
@@ -203,23 +204,11 @@ $(document).ready(function(){
 
 			});
 
-			
-
 		}
 	}
 
 	google.maps.event.addDomListener(window, 'load', initialize);
 
 });
-
-
-
-
-
-
-
-
-
-
 
 
