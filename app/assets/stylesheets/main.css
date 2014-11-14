@@ -27,6 +27,7 @@ img {
 	max-width: 100%;
 }
 
+/* xbutton for overlay */
 .xbutton {
 	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
@@ -165,10 +166,6 @@ body { height: 100%; margin-top: auto; margin-bottom: auto; padding: 0; z-index:
 
 
 
-/***************************
-COLORS
-****************************/
-
 /* site body */
 body {
 	background-color: #fff;
@@ -197,16 +194,11 @@ a:hover{
 }
 
 
-/*nav links */
-/*nav a, nav a:visited {
-	color: #036;
-} */
 
-/* selected nav link */
-nav a.selected, nav a:hover{
-	color: #669;
-}
 
+/*************************
+PAGE: OVERLAY
+*************************/
 
 #overlay{
 	background:rgba(255,255,255, 0.9);
