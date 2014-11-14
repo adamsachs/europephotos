@@ -176,7 +176,7 @@ $(document).ready(function(){
 
 						
 
-				
+						//puts gallery html into the overlay divide, and shows the overlay
 						$.get(url, function (response){
 							console.log(infowindow.content);
 							$overlay.append($xButton);
